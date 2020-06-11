@@ -13,4 +13,4 @@ def get_items():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=80, host='0.0.0.0')
